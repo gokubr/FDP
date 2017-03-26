@@ -7,7 +7,7 @@ SENHA=vagrant
 clear
 
 echo
-echo "Debian GNU/Linux jessie 8 tty2"
+echo "Debian GNU/Linux jessie 8 tty1"
 echo
 echo -n "jessie login: "
 read LOGIN
