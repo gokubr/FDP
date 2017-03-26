@@ -4,7 +4,7 @@ USER=gokubr
 SENHA=123456
 SAIR=a
 
-while [ $SAIR != b ]; do
+while [ $SAIR != "b" ]; do
 
 QNT=1
 
@@ -43,3 +43,4 @@ fi
    let QNT=($QNT+1)
  done
 done
+

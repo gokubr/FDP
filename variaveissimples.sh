@@ -19,7 +19,3 @@ echo "KKKKKKKKKKKKKKK"
 sleep 2
 echo "O programa terminou." 
 echo      #pula uma linha depois do final do script.
-
-
-
-
