@@ -15,7 +15,7 @@ echo "Digite outro número:"
 read NUM02
 
 if [ $SEXO = "menino" ]; then
-       if (( $NUM01 >$NUM02 )); then
+       if (( $NUM01 > $NUM02 )); then
            echo "O maior número é $NUM01."
 else
            echo "O maior número é $NUM02."
@@ -27,11 +27,3 @@ else
           echo "O menor número é $NUM02."
       fi
 fi
-
-
-
-
-
-
-
-
