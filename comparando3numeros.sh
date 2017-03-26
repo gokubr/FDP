@@ -43,7 +43,3 @@ fi
 if (( $n3 < $n1 )) && (( $n3 < $n2 )); then        #final - menor número
        echo -e "O menor número é: \033[01;31m $n3 \033[m"
 fi
-
-
-
-
