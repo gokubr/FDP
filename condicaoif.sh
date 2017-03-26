@@ -17,10 +17,3 @@ else
        echo "Espertinha! Seu nome é $NOME."
 
 fi
-
-
-
-
-
-
-
