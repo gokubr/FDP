@@ -25,3 +25,4 @@ while (( $DIG !=0 )); do
 done
 
 echo "Os maiores valores respectivamente são $PRI , $SEG , $TER."
+
