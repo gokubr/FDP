@@ -1,4 +1,8 @@
-#!bin/bash
+# V. Crie um programa para ler salários até que seja informado zero e escreva,
+# em ordem crescente, os três maiores valores dos salários lidos.
+
+
+#!/bin/bash
 
 DIG=1; PRI=0; SEG=0; TER=0;
 
