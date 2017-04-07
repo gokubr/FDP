@@ -1,6 +1,6 @@
-######### II. Faça um programa para solicitar a quantidade de números inteiros a serem
-lidos, em seguida ler os números e escrever o maior número dentre os
-informados.##########
+# II. Faça um programa para solicitar a quantidade de números inteiros a serem
+# lidos, em seguida ler os números e escrever o maior número dentre os
+# informados.
 
 #!binbash
 
