@@ -1,3 +1,8 @@
+# III. Crie um programa para ler os salários indefinidamente para calcular um 
+# aumento, até que seja informado zero. Sabe-se que os funcionários que
+# possuem salário atual até R$ 500,00 terão um aumento de 20%, os demais
+# terão aumento de 10%.
+
 #!/bin/bash
 
 clear
