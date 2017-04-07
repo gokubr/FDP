@@ -1,4 +1,9 @@
+# IV. Crie um programa para ler números inteiros até que seja informado o valor 0,
+# em seguida escrever o menor valor lido e quantas vezes este ocorreu nos
+# números lidos.
+
 #!/bin/bash
+
 DIG=1;clear
 valor(){ echo "Digite um valor:"
 }
