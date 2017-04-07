@@ -2,7 +2,7 @@
 # lidos, em seguida ler os números e escrever o maior número dentre os
 # informados.
 
-#!binbash
+#!/bin/bash
 
 clear
 
