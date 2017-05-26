@@ -54,7 +54,17 @@ PASS=$(dialog							\
 		--passwordbox 'Digite a senha:'		        \
 		0 0)
 
-(echo $PASS ; echo $PASS) | passwd $USR
+PASS2=$(dialog							\
+               	--stdout --title 'Alterar a senha do usuário'	\
+		--passwordbox 'Digite a senha novamente:'	\
+		0 0)
+
+(echo $PASS ; echo $PASS2) | passwd $USR
+
+                  dialog					\
+		--title 'Parabéns!' 				\
+		--msgbox 'Senha alterada com sucesso.' 		\
+		 0 0 || dialog 
 
 GUSR
 
@@ -268,12 +278,3 @@ SENHA=$(dialog								\
 		0 0)
 [ $USUARIO == $USER ] && [ $SENHA == $PASS ] && MENU || FIM
 #-------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
